@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "cmake-js": "^3.7.3",
+    "nan": "^2.10.0"
+  },
+  "devDependencies": {
+    "pngjs": "^3.3.3",
+    "preview-dds": "^1.0.1",
+    "three": "^0.95.0"
+  },
+  "name": "cubemapgen",
+  "description": "These must be installed on the system. They won't be installed automatically.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cmake-js compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.autodesk.com/varikt/cubemapgen.git"
+  },
+  "author": "Tom G Varik <tom.varik@autodesk.com>",
+  "license": "MIT"
+}
